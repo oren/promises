@@ -4,6 +4,7 @@
 // 2) get contacts from SalseForce
 // 3) get their attachments (id/dx)
 function getDonors(req, res, next) {
+  console.log('start');
   login(); // 1
 
   function login(cb) {

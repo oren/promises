@@ -1,6 +1,0 @@
-web:
-  build: .
-  volumes:
-   - ./home/developer
-  ports:
-   - "3000:80"
