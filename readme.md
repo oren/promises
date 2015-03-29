@@ -5,7 +5,7 @@
 Install docker and docker-compose
 
     docker-compose build
-    docker-compose run web index.js
+    docker-compose run web
 
 ### Misc
 

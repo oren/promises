@@ -4,6 +4,5 @@ RUN useradd -ms /bin/bash developer
 WORKDIR /home/developer
 USER developer
 
-CMD ["/usr/local/bin/node", "/home/developer/index.js"]
-ENTRYPOINT ["node"]
+ENTRYPOINT ["node", "/home/developer/index.js"]
 EXPOSE 3000
