@@ -1,4 +1,4 @@
-// login().then(getContacts).then(getAttachments);
+// login.then(getContacts).then(getAttachments);
 
 function getDonors(req, res, next) {
   var login = new Promise(loginPromise);
@@ -18,7 +18,6 @@ function getDonors(req, res, next) {
   function getAttachments(resolve, reject) {
     results[0].attachments = [{id: 1}, {id: 42}];
     results[1].attachments = [{id: 3}, {id: 45}];
-    console.log('contacts', contacts);
   }
 
   login.then(getContacts).then(getAttachments);
