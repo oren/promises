@@ -25,8 +25,6 @@ function getDonors(req, res, next) {
     console.log('next was called');
   }
 
-  console.log('start');
-
   login(); // 1
 
   function login(cb) {
