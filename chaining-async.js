@@ -1,4 +1,4 @@
-// 2. chaining promises. everything is async
+// 2. chaining promises. some functions can be async and some sync
 
 // var login = new Promise(function(resolve, reject) {
 //     setTimeout(function() {
