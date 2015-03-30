@@ -6,15 +6,16 @@ Install docker and docker-compose
 
     docker-compose build
     docker-compose run web
-    docker-compose run --entrypoint node web index-promises.js
+    docker-compose run --entrypoint node web basic.js
 
-### Stages
-
-http://www.html5rocks.com/en/tutorials/es6/promises/
+### Examples
 
 * basic.js - simple promise
 * chaining.js - chaning sync functions using
-* chaining-async.js - chaning async functions
+* chaining-async.js - chaning async or sync functions
+* paralell.js - running functions in paralell and getting the results of all of them
+
+http://www.html5rocks.com/en/tutorials/es6/promises/
 
 ### Misc
 
