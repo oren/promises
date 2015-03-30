@@ -11,9 +11,9 @@ Install docker and docker-compose
 ### Examples
 
 * basic.js - simple promise
-* chaining.js - chaning sync functions using
-* chaining-async.js - chaning async or sync functions
-* parallel.js - running functions in parallel and getting the results of all of them
+* chaining.js - run sync functions in sequence
+* chaining-async.js - run functions in sequence (sync and async)
+* parallel.js - run functions in parallel
 
 http://www.html5rocks.com/en/tutorials/es6/promises/
 

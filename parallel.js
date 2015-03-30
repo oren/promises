@@ -1,4 +1,5 @@
-// 2. ran functions in parallel
+// 3. ran functions in parallel
+// using Promise.all
 
 function login(result) {
   return new Promise(function(resolve, reject) {
